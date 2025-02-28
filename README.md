@@ -1,4 +1,4 @@
-**MagnaLecta**
+**MagnaLecta:**
 **A Barrier-free Student Empowering Tool**
 
 For 2025 MUIDSI Hackathon
