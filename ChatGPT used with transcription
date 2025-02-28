@@ -1,0 +1,197 @@
+Introduction to Computation and Programming
+
+1. Introduction
+
+Computation is a fundamental concept that drives modern technology. This course aims to introduce students to computational thinking, programming, and problem-solving. The main goal is to help students think like computer scientists and understand how computation can be used to tackle complex technical problems.
+
+This course is designed for students with little to no prior programming experience and will primarily use Python as the programming language.
+
+2. Course Objectives
+
+Strategic Goals:
+
+Prepare students for computational problem-solving.
+
+Equip students with programming skills for technical applications.
+
+Instill confidence in students to write and read small pieces of code.
+
+Teach students the capabilities and limitations of computation.
+
+Provide skills that help students secure research opportunities and internships.
+
+Tactical Goals:
+
+By the end of the course, students should be able to:
+
+Apply computational thinking to solve small-scale problems.
+
+Read, write, and debug simple programs in Python.
+
+Understand the fundamental principles of computation.
+
+Translate real-world problems into computational models.
+
+Use programming as a tool for scientific and engineering applications.
+
+3. What is Computation?
+
+At its core, computation involves following a well-defined sequence of steps (an algorithm) to transform input data into useful output. The study of computation focuses on developing techniques to express these steps effectively in a language that a machine can understand.
+
+Declarative vs. Imperative Knowledge
+
+Declarative Knowledge: Statements of fact, such as mathematical formulas.
+
+Example: "The square root of x is a number y such that y² = x."
+
+Imperative Knowledge: Step-by-step instructions to perform a task.
+
+Example: Algorithm to compute square roots using Heron's method:
+
+Start with an initial guess (g).
+
+If g² is close to x, return g.
+
+Otherwise, update g using (g + x/g)/2.
+
+Repeat until the desired accuracy is achieved.
+
+Computational thinking is largely based on imperative knowledge, as it provides a structured way to solve problems programmatically.
+
+4. Evolution of Computation
+
+Early computers were designed to perform specific tasks, such as:
+
+Fixed Program Computers: Could execute only predefined computations (e.g., early calculators, Enigma code-breakers).
+
+Stored Program Computers: Could execute different computations by reading sequences of instructions (modern computers follow this model).
+
+Basic Architecture of a Stored Program Computer
+
+A modern computer consists of:
+
+Memory: Stores data and instructions.
+
+Control Unit: Directs the execution of instructions.
+
+Arithmetic Logic Unit (ALU): Performs calculations and logical operations.
+
+Program Counter: Keeps track of which instruction is being executed.
+
+A program is a sequence of instructions stored in memory that guides the computer’s operations.
+
+5. Programming Languages
+
+Characteristics of Programming Languages:
+
+High-Level vs. Low-Level:
+
+High-level languages (e.g., Python) are easier to write and understand.
+
+Low-level languages (e.g., Assembly) provide more control over hardware.
+
+General-Purpose vs. Targeted:
+
+General-purpose (e.g., Python) is suitable for various applications.
+
+Targeted languages (e.g., MATLAB) are specialized for certain domains.
+
+Interpreted vs. Compiled:
+
+Interpreted languages execute instructions directly (e.g., Python).
+
+Compiled languages require pre-processing before execution (e.g., C, Java).
+
+Python is an interpreted, high-level, general-purpose language, making it an excellent choice for beginners.
+
+6. Python Basics
+
+Basic Data Types
+
+Numbers: Integers (int) and floating-point numbers (float)
+
+x = 5       # Integer
+y = 3.14    # Float
+Strings: A sequence of characters enclosed in quotes
+
+text = "Hello, World!"
+Operators
+
+Python supports arithmetic and string operations:
+
+Arithmetic:
+
+sum = 3 + 5   # Addition
+diff = 7 - 2  # Subtraction
+product = 4 * 6  # Multiplication
+quotient = 8 / 2  # Division
+String Concatenation:
+
+greeting = "Hello" + " " + "World!"
+Variables and Assignments
+
+Variables store values for later use.
+
+name = "Alice"
+age = 25
+7. Understanding Syntax and Semantics
+
+Syntax
+
+Defines the structure of valid expressions.
+
+Example of correct syntax:
+
+print("Hello, World!")
+Example of incorrect syntax:
+
+print("Hello, World!)  # Missing closing quote
+Static vs. Full Semantics
+
+Static Semantics: Determines whether an expression is meaningful before execution.
+
+Full Semantics: Describes what a program does when executed.
+
+Errors in Python
+
+Syntax Errors: Mistakes in code structure (e.g., missing brackets).
+
+Semantic Errors: Code runs but produces incorrect results.
+
+Runtime Errors: Occur during execution (e.g., division by zero).
+
+8. Key Takeaways
+
+Computation is about systematically solving problems using a structured approach.
+
+Imperative knowledge describes step-by-step methods to solve problems.
+
+Stored Program Computers allow programs to be written and executed dynamically.
+
+Programming languages provide an interface for writing computation recipes.
+
+Python is an interpreted, high-level language that simplifies computation.
+
+Syntax and semantics are crucial for writing correct programs.
+
+Errors in programming can be syntactic, semantic, or runtime-related.
+
+9. Practice Questions
+
+Conceptual Questions:
+
+What is the difference between declarative and imperative knowledge?
+
+Why are stored program computers more powerful than fixed program computers?
+
+What are the advantages of using Python for beginners?
+
+Coding Challenges:
+
+Write a Python program that calculates the square root of a number using Heron's method.
+
+Write a program that concatenates two user-inputted strings and prints the result.
+
+Conclusion
+
+This lecture introduced the foundational ideas of computation, programming, and problem-solving. Understanding these concepts will help students develop computational thinking, an essential skill for tackling real-world problems with code.
