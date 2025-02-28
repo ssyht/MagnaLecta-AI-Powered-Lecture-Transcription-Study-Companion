@@ -1,5 +1,6 @@
-# Speech_to_text_MUIDSI-Hackathon_2025
-2025 MUIDSI Hackathon - Speech to Text AI LLM
+**MagnaLecta**
+**A Barrier-free Student Empowering Tool**
+For 2025 MUIDSI Hackathon
 
 **AI-Powered Lecture Transcription & Study Assistant**
 This project leverages Generative AI to enhance classroom learning by converting recorded lectures into structured study materials. Using speech-to-text models (Whisper) and natural language processing (NLP) techniques, this system transcribes lecture recordings, processes key information, and generates concise study guides, exercises, and topic summaries to aid students in their studies.
